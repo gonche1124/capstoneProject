@@ -8,7 +8,7 @@ def main():
 
 @app.route('/index')
 def index():
-     return render_template('index.html')
+     return render_template('index2.html')
 
 
 @app.route('/exploration_steps', methods=['GET', 'POST'])
